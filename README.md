@@ -1,5 +1,9 @@
 # NetSuite Segregation of Duties (SOD) Audit
-NetSuite segregation of duties (SOD) audit
+**Project goal**: The primary goal of the analysis is to determine which users have roles, or combinations of roles, that cause a segregation of duties issue in NetSuite.
+
+**Tech used**: Python
+
+**Datasets**: The data structure is extracted from NetSuite using the native Saved Search Functionality
 
 ## Step #1: Pull the employee file from NetSuite using Saved Search
 Create a new saved search on the **Employee** search type.
