@@ -30,7 +30,7 @@ Include **Name**, **Permission**, and **Level** in the Results.
 Click **Save & Run** and export the resulting report to Excel.
 
 ## Step 3: Run the analysis in Python
-Run the code in the [SOD Analysis](https://github.com/coltonwaynelawson/NetSuiteSOD/blob/main/sod.ipynb) to find the users that have a segregation of duties issue. This analysis focuses on standard NetSuite permissions that could cause segregation of duties issues (e.g. what could go wrong) if not addressed.
+Use the Employee File and the Permissions File from steps #1 and #2 above as the inputs to the analysis and run the code in the [SOD Analysis](https://github.com/coltonwaynelawson/NetSuiteSOD/blob/main/sod.ipynb) to find the users that have a segregation of duties issue. This analysis focuses on standard NetSuite permissions that could cause segregation of duties issues (e.g. what could go wrong) if not addressed.
 
  -	Users that can create journal entries (Make Journal Entry) and approve journal entries (Journal Approval)
  -	Users that can create customer invoices (Invoice) and can either receive customer payments (Customer Deposit) or record customer payments (Customer Payment)
